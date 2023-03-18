@@ -1,0 +1,49 @@
+.not-found {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 80px;
+    margin-bottom: 50px;
+  }
+  
+  p {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: red;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0 #000000;
+    transition: background-color 0.2s ease-in-out;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    transform: translateY(-5px);
+    background-color: #bb1414;
+  }
+  
+  .img-container {
+    width: 500px;
+    margin-bottom: 50px;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  

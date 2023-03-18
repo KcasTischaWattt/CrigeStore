@@ -1,0 +1,97 @@
+/* Define a global font family for the page */
+body {
+  background-color: #1c1c1e !important;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Style the main container */
+.Main {
+  background-color: #1c1c1e;
+  color: #E9E9E9;
+  padding: 20px;
+}
+
+/* Style the logo */
+.center {
+  max-width: 400px;
+  max-height: 400px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: drop-shadow(0px 4px 4px #262421);
+}
+
+.center:hover {
+  transform: translateY(-3px);
+  filter: blur(1px) drop-shadow(0px 1px 1px #706F8E);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  margin: 0 20px; 
+}
+
+/* Style the buttons */
+.button {
+  background-color: #1c1c1e;
+  color: #1EE3CF;
+  padding: 10px 20px;
+  margin-right: 10px;
+  text-transform: uppercase;  
+  font-weight: bold;
+  border: 2px solid #1c1c1e !important;
+  border-radius: 20px;
+  letter-spacing: 2px;
+  box-shadow: 0px 4px 4px #1b1b1b;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+}
+
+.logout-button {
+  background-color: #1c1c1e !important;
+  color: #6B48FF !important;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: 1px solid #1c1c1e !important;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.logout-button:hover {
+  transform: translateY(-3px);
+}
+
+/* Style the article */
+article {
+  margin-top: 30px;
+}
+
+/* Style the article heading */
+h2 {
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #706F8E;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+/* Style the article content */
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+  

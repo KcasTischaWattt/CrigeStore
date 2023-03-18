@@ -1,0 +1,115 @@
+body {
+  background-color: #282a36;
+  color: #f8f8f2;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.cumpot {
+    max-width: 600px;
+    max-height: 600px;
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(0px 4px 4px #262421);
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.form-wrapper {
+  box-shadow: 0px 0px 0px 4px #706F8E;
+  border-radius: 3px;
+  padding: 2rem;
+  text-align: center;
+  width: 400px;
+}
+
+.form-title {
+  font-size: 50px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.RegCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1vh;
+}
+
+.buttonReg {
+  background-color: #1EE3CF;
+  border: none;
+  border-radius: 5px;
+  color: #0D3F67;
+  font-size: 1rem;
+  padding: 0.5rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E9E9E9;
+  height: 0.01vh;
+}
+
+.Regtxt {
+  display: block;
+  color: #E9E9E9;
+  margin-right: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.buttonReg:hover {
+  background-color: #00D5FF;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  color: #E9E9E9;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  background-color: #E9E9E9;
+  border: none;
+  border-radius: 5px;
+  color: #282a36;
+  font-size: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.form-submit {
+  background-color: #6B48FF;
+  border: none;
+  border-radius: 5px;
+  color: #E9E9E9;
+  font-size: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+  font-size: 20px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.form-submit:hover {
+  background-color: #554ED5;
+  cursor: pointer;
+}
